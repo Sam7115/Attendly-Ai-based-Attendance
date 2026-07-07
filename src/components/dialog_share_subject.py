@@ -6,7 +6,7 @@ import io
 
 @st.dialog("Share Class Link")
 def share_subject_dialog(subject_name, subject_code):
-    app_domain = "attendly-ai-attendance.main.streamlit.app"
+    app_domain = "sam7115-attendly-ai-based-attendance-app-4wx8hq.streamlit.app"
     join_url = f"{app_domain}/?join-code={subject_code}"
     
     st.markdown(
