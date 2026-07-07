@@ -1,0 +1,24 @@
+# Virtual environment
+venv/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+
+.idea/
+
+.streamlit/secrets.toml
+
+dist/
+build/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.DS_Store
+Thumbs.db
